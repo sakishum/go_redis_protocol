@@ -9,7 +9,8 @@ import (
 )
 
 const (
-	RedisServerAddress = "127.0.01:6379"
+	// TODO, Read Redis config with .ini 
+	RedisServerAddress = "127.0.0.1:6379"
 	RedisServerNetwork = "tcp"
 	RedisServerAuth    = "admin"
 )
