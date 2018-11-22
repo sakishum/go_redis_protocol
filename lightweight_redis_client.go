@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	RedisServerAddress = "10.121.134.195:6379"
+	RedisServerAddress = "127.0.01:6379"
 	RedisServerNetwork = "tcp"
-	RedisServerAuth    = "netbaradmin"
+	RedisServerAuth    = "admin"
 )
 
 const (
